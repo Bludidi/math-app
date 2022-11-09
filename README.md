@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Built With
 
 - Major languages `JavaScript`
-- Frameworks `Bootstrap`
+- Frameworks `React`
 - Technologies `Git Bash` and `VS Code` 
 
 ## Live Demo (if available)
@@ -42,7 +42,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Bootstrap Community 
+- React Community 
 - Microverse Community 
 
 ## 📝 License
