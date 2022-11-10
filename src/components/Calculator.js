@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function handleClick(event, state, setter) {
+const handleClick = (event, state, setter) => {
   const buttonName = event.target.innerText;
   const result = calculate(state, buttonName);
   setter(result);
