@@ -3,7 +3,7 @@ import './header.css';
 
 const Header = () => (
   <header className="top-section">
-    <h2>Math Magicians</h2>
+    <h2 className="nav-header">Math Magicians</h2>
     <nav className="navigation">
       <NavLink to="/" className="link">Home</NavLink>
       <NavLink className="link" to="/calculator">Calculator</NavLink>
