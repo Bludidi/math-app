@@ -12,8 +12,10 @@
   list-style: none;
   display: flex;
   gap: 20px;
+
   /* justify-content: space-around; */
   align-items: center;
+
   /* margin-right: 3px; */
   font-size: 2rem;
 }
@@ -46,7 +48,7 @@ h2 {
 
 .link:hover {
   background-color: #ffffff80;
-  color:#570a0a;
+  color: #570a0a;
   border: solid 1px #570a0a;
   font-weight: 700;
   border-radius: 3px;
@@ -59,7 +61,7 @@ li:active {
 
 .active {
   background-color: #fff;
-  color:#570a0a;
+  color: #570a0a;
   border: solid 1px #570a0a;
   font-weight: 700;
   border-radius: 3px;
