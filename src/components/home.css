@@ -1,0 +1,24 @@
+html {
+  background-color: #b68d8d;
+}
+
+.home {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  gap: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-heading {
+  margin-bottom: 2.5rem;
+  color: #570a0a;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #570a0a;
+}

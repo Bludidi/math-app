@@ -1,0 +1,16 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #570a0a;
+}
+
+.calc {
+  display: flex;
+  gap: 10%;
+}
+
+.lets {
+  width: 45%;
+  font-size: 2em;
+  margin: 10% 0 0 30px;
+  padding: 0;
+}

@@ -1,0 +1,11 @@
+.quotes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #570a0a;
+  font-size: 2rem;
+  margin-top: 8%;
+}
