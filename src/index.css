@@ -15,12 +15,11 @@ body {
 
 .display {
   grid-column: 1 / -1;
-  color: #fff;
-  padding-top: 3rem;
-  padding-right: 1rem;
-  font-size: 2rem;
+  color: #570a0a;
+  padding: 0.8rem;
+  font-size: 3rem;
   overflow: hidden;
-  background-color: rgba(73, 206, 239, 0.356);
+  background-color: #b68d8d;
   text-align: end;
   letter-spacing: 5px;
   border: none;
@@ -39,37 +38,43 @@ body {
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  background-color: rgb(113, 113, 112);
+  background-color: #570a0a;
 }
 
 .btn {
   display: grid;
+  margin: 8%;
+  gap: 10px;
   place-content: center;
-  color: rgb(241, 232, 232);
+  color: #fff;
   cursor: pointer;
   font-weight: bold;
+  font-size: 1.5em;
   border: 1px solid rgb(177, 174, 172);
-  padding: 1rem;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 .orange {
-  background-color: rgb(230, 166, 226);
+  background-color: rgb(245, 84, 9);
 }
 
 .orange:hover {
-  background-color: rgba(246, 136, 242, 0.774);
+  background-color: #ff0000;
   border: 2px solid #fff;
+  font-size: 2em;
+  box-shadow: 5px 5px 4px #8d8e8f;
 }
 
 .grey {
-  background-color: rgb(19, 223, 189);
+  background-color: rgb(71, 73, 73);
   border: 2px;
 }
 
 .grey:hover {
-  background-color: rgb(75, 238, 197);
+  background-color: #4fa04f;
   border: 2px solid #fff;
+  font-size: 2em;
+  box-shadow: 5px 5px 4px #8d8e8f;
 }
 
 .span {
