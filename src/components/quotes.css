@@ -3,10 +3,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(112, 58, 106);
+  color: #570a0a;
   font-size: 2rem;
   margin-top: 8%;
-  padding-inline-start: 5%;
-  padding-inline-end: 5%;
+  /* padding-inline-start: 5%;
+  padding-inline-end: 5%; */
 }

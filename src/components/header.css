@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #570a0a;
-  padding-right: 15px;
+  padding: 0 15px 0 20px;
 }
 
 .navigation {
