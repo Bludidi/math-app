@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Getting Started
 
-- Copy link to the repository. 
+- Copy link to **[this](https://github.com/Bludidi/math-app)** link. 
 - Open terminal and run git clone using the link 
 - Run NPM run start 
 
