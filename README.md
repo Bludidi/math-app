@@ -11,10 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Frameworks `React`
 - Technologies `Git Bash` and `VS Code` 
 
-## Live Demo (if available)
-This app is not deployed yet but you test it by simple running `npm start` in the terminal.
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo 
+[Math-App](https://spectacular-granita-1a3cde.netlify.app)
 
 ## Getting Started
 
