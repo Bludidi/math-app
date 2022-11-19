@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Technologies `Git Bash` and `VS Code` 
 
 ## Live Demo 
-[Math-App](https://spectacular-granita-1a3cde.netlify.app)
+[Math-App](https://bludidi-math-app.netlify.app)
 
 ## Getting Started
 
