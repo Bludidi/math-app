@@ -1,7 +1,7 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 # Math-App 
-This is a Math App that is created using React. The first milestone is setup.
+This is a Math App that is created using React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 - Copy link to **[this](https://github.com/Bludidi/math-app)** link. 
-- Open terminal and run git clone using the link 
+- Open the terminal and run git clone using the link 
 - Run NPM run start 
 
 ## Authors
