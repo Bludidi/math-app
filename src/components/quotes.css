@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #570a0a;
+  color: #fff;
   font-size: 2rem;
   padding: 0 4rem;
   /* margin-top: 8%; */
@@ -13,7 +13,21 @@
 
 .q-btn {
   margin-top: 2rem;
-  width: 10vw;
+  width: 15vw;
   height: 2rem;
   cursor: pointer;
+  background-color: #ffffff1b;
+  border: solid 1px #fff;
+  padding: 0 1rem;
+}
+
+.q-btn:hover {
+  background-color: #ffffff43;
+}
+
+.quote_div p {
+  background-color: #ffffff43;
+  color: #fff;
+  border: solid 1px #ffffff3c;
+  padding: 1rem;
 }

@@ -52,7 +52,7 @@ const Quotes = () => {
             </div>
           ))}
           <button type="button" onClick={handleRefresh} className="q-btn">
-            Next Quote
+            NEXT QUOTE
           </button>
         </>
       )}
