@@ -50,7 +50,7 @@ const Quotes = () => {
               </span>
             </div>
           ))}
-          <button type="button" onClick={handleRefresh}>
+          <button type="button" onClick={handleRefresh} className="q-btn">
             Next Quote
           </button>
         </>
