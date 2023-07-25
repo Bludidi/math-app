@@ -17,11 +17,11 @@ const Calculator = () => {
       <h2 className="lets">Lets do some math!</h2>
       <div className="container">
         <div className="wrapper">
-          <button className="display" type="button">
+          <div className="display">
             {total}
             {operation}
             {next}
-          </button>
+          </div>
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">AC</button>
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">+/-</button>
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">%</button>
@@ -38,9 +38,9 @@ const Calculator = () => {
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">2</button>
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">3</button>
           <button className="btn orange" onClick={(event) => handleClick(event, state, setter)} type="button">+</button>
-          <button className="btn grey span" onClick={(event) => handleClick(event, state, setter)} type="button">0</button>
+          <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">0</button>
           <button className="btn grey" onClick={(event) => handleClick(event, state, setter)} type="button">.</button>
-          <button className="btn orange" onClick={(event) => handleClick(event, state, setter)} type="button">=</button>
+          <button className="btn orange span" onClick={(event) => handleClick(event, state, setter)} type="button">=</button>
         </div>
       </div>
     </div>
