@@ -36,8 +36,7 @@
 }
 
 .link:hover {
-  border: solid 1px #FFF;
-
+  border: solid 1px #fff;
 }
 
 .active {
