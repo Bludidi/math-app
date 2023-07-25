@@ -1,5 +1,9 @@
 html {
   background-color: #b68d8d;
+  background-image: url('../../assets/MM-BG2.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home {

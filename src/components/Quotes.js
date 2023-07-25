@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+// import backgroundImage from '../../assets/MM-BG1.png'
 import './quotes.css';
 
 const Quotes = () => {
