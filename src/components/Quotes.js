@@ -26,7 +26,7 @@ const Quotes = () => {
         setQuotes(response.data);
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        error('Error fetching data:', error);
       }
     };
 
