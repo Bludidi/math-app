@@ -12,7 +12,7 @@
   overflow: hidden;
   text-align: end;
   letter-spacing: 5px;
-  border: solid 1px #ffffff36;
+  border: solid 1px #ffffffa4;
 }
 
 .container {
@@ -27,7 +27,7 @@
   height: 100%;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
-  background-color: #570a0a34;
+  background-color: #0b0303b9;
 }
 
 .btn {
@@ -55,7 +55,7 @@
 
 .grey {
   background-color: rgba(71, 73, 73, 0.15);
-  border: solid 1px rgba(71, 73, 73);
+  border: solid 1px rgb(143, 149, 149);
 }
 
 .grey:hover {
