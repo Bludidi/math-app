@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import axios from 'axios';
-// import backgroundImage from '../../assets/MM-BG1.png'
 import './quotes.css';
 
 const Quotes = () => {
   const [quotes, setQuotes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
-  // const [currentPage, setCurrentPage] = useState(1);
-  // const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
     const fetchQuotes = async () => {
@@ -44,42 +41,6 @@ const Quotes = () => {
   const handlePrevQuote = () => {
     setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
   };
-
-  // Handle pagination arrows
-  // const handlePrevArrow = () => {
-  //   setCurrentIndex((prevIndex) => prevIndex - 1);
-  // };
-
-  // const handleNextArrow = () => {
-  //   setCurrentIndex((prevIndex) => prevIndex + 1);
-  // };
-
-  // Calling two functions in the same function
-  // const handlePrev = () => {
-  //   handlePrevArrow();
-  //   handlePrevQuote();
-  // };
-
-  // const handleNext = () => {
-  //   handleNextArrow();
-  //   handleNextQuote();
-  // };
-
-  // Display 1 quote at a time
-  // const renderQuote = () => {
-  // const startIndex = currentIndex * 1;
-  // const endIndex = startIndex + 1;
-
-  //   return data.slice(startIndex, endIndex).map((item) => (
-  //     <div key={item.id} className="quote_div">
-  //       <p>{item.quote}</p>
-  //       <span>
-  //         -
-  //         {item.author}
-  //       </span>
-  //     </div>
-  //   ));
-  // };
 
   return (
     <div className="quotes">
