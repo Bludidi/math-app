@@ -24,9 +24,25 @@
   background-color: #ffffff43;
 }
 
+.quote_div {
+  width: 75vw;
+}
+
 .quote_div p {
   background-color: #ffffff43;
   color: #fff;
   border: solid 1px #ffffff3c;
   padding: 1rem;
+}
+
+.pagArrows {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  font-size: medium;
+}
+
+.arrow:hover {
+  background-color: #ffffff28;
+  border-radius: 50%;
 }
